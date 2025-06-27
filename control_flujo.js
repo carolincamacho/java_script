@@ -40,3 +40,25 @@ if (100>10 && 10==100)
 if (100>10 || 10==100)
 { console.log("condicion or ok")
 }
+
+if (true)
+{console.log("siempre es verdadero")}
+
+// uso de switch case
+let opcion=7;
+
+switch(opcion)
+{
+    case 1:
+        console.log("seleccion 1")
+        break
+    case 2:
+        console.log("seleccion 2")
+        break
+    case 3:
+        console.log("seleccion 3")
+        break
+    default:
+        console.log("Caso por Defecto")
+}
+

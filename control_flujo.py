@@ -27,3 +27,20 @@ if (100>10 and 10==100):
 if (100>10 or 10==100):
     print("condicion OR ok")
 
+if True:
+    print("siempre es verdadero")
+
+#uso de switch case
+
+opcion=8
+
+match opcion:
+    case 1:
+        print("seleccion 1")
+    case 2:
+        print("seleccion 2")
+    case 3:
+        print("seleccion 3")
+    case _:
+        print("Caso por Defecto")
+
